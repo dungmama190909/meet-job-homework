@@ -1,0 +1,122 @@
+body{
+	margin: 0 auto;	/* 與邊框無距離，系統預設 8 */
+	height: 100%;	
+}
+a {	/* 網頁內『無管控』格式，因為後面會蓋住前面 */
+	color: #ffffff;  /* 白色字 */
+	text-decoration: none; /* 文字下方不要有底線 */
+	font-weight: bolder;  /* 字加粗 */
+}
+/* --------------------------------分隔線-------------------------------- */
+#wrapper{
+	min-height: 100%;	/* 整個區塊的高度為 100% */
+	margin-bottom: -100px;	/* footer 的高度會是 100px */
+}
+#banner{
+	height: 70px;
+	width: 100%;	/* 因手機與電腦的顯示不同 */
+}
+#logo{
+	float: left;
+	margin-left:2em ;
+}
+#logo img{
+	width: 100%;
+}
+#fb{
+	float: right;
+	margin-right: 1em;  /* 與右側的距離為 1em */
+}
+#fb img{
+	width: 50%;
+}
+#ig{
+	float: right;
+	margin-right: 1em;
+}
+#ig img{
+	width: 55%;
+}
+/* --------------------------------分隔線-------------------------------- */
+#menu{
+	height: 50px;
+	width: 100%;
+	background-color: #DB7318;
+	color: #ffffff;	/* 區塊內的文字顏色-白 */
+}
+#menu ul{
+	margin-left: 18%; /* 外部的左邊距離 */
+	color: #ffffff;
+	padding-top: 10px;
+	font-size: 20px;
+}
+#menu li{
+	list-style: none; /* 不需要項目符號 */
+	float: left;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+/* --------------------------------分隔線-------------------------------- */
+#content{
+	width: 100%;
+	min-height: 400px;
+}
+#left{
+	width: 65%;
+	float: left;
+	background-color: #cccccc;
+}
+#right{
+	width: 35%;
+	float: right;
+	background-color: #ff0000;
+}
+#left-top{
+	width: 100%;
+	height: 40%;
+	background-color: green;
+	padding-top: 0px;
+}
+#left-down{
+	width: 100%;
+	height: 40%;
+	background-color: #E026B3;
+}
+#left-top ul{
+	margin-left: 5%;
+	padding-top: 0px;
+	font-size: 20px;
+	margin: 0px;
+}
+#left-down ul{
+	margin-left: 5%;
+	padding-top: 0px;
+	font-size: 20px;
+	margin: 0px;
+}
+#right ol{
+	margin-left: 5%;
+	font-size: 20px;
+	padding-top: 10px;	
+	margin: 0px;
+}
+#footer{
+	clear: both;
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	color: #ffffff;
+	text-align: center; /* 裡面的文字置中 */
+	clear: both;   /* 清除 float 效果 */
+}
+#footer span{
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
